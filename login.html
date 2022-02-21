@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="src/css/login.css">
+
+ <!-- The Modal -->
+ <div class="modal fade" id="noti-modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h3 id="notify-text"></h3>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer" style="justify-content: center;">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">ตกลง</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row" id="login-area">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4" id="loginfo">
+        <div class="form-inline" style="justify-content:center;">
+            <label for="user" style="margin-right: 10px; font-weight: bold;">Username</label>
+            <input type="text" class="form-control" id="user">
+        </div>
+        <br>
+        <div class="form-inline" style="justify-content:center;">
+            <label for="user" style="margin-right: 15px; font-weight: bold;">Password</label>
+            <input type="password" class="form-control" id="passwd">
+        </div>
+        <br>
+        <div class="form-inline" style="justify-content: center; font-weight: bold;">
+            <button class="btn btn-success" id="login-button" style="margin-right: 20px;">Login</button>
+            <button class="btn btn-danger" id="exit-button">  Exit  </button>
+        </div>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+
+<script src="src/scripts/login.js"></script>
